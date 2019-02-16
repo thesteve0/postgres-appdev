@@ -1,0 +1,2 @@
+# crunchy-postgres-appdev
+This is the repo for the Crunchy Docker container for postgres-appdev. It has all the spatial extension and embedded R. It is based off of the https://github.com/CrunchyData/crunchy-containers postgres-gis container. We will only be producing off the latest Postgres release. The goal of the project is to produce a container that makes it easy and simple for application developers to get started with PostgreSQL using containers.This is a non-supported, not intended for production release. 
