@@ -12,7 +12,7 @@ Obviously this means I don't think this image should ever be run in production.
 
 It has all the spatial extension and embedded R. It is based off of the https://github.com/CrunchyData/crunchy-containers postgres-gis container.
 
-The goal of this project wass to produce a container that makes it easy and simple for application developers to get started with PostgreSQL using containers.This is a non-supported, not intended for production release. 
+The goal of this project was to produce a container that makes it easy and simple for application developers to get started with PostgreSQL using containers.This is a non-supported, not intended for production release. 
 
 You can set the following environment variables with the `docker run -e` command:
 
