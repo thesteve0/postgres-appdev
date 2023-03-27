@@ -23,3 +23,9 @@ You can set the following environment variables with the `docker run -e` command
 | PG_DATABASE= | mydb |
 | PG_ROOT_PASSWORD= | set to the same password as PG_USER |
 | PG_PRIMARY_PORT= | 5432 |
+
+
+Starting a database with the defaults above, a database named MYDATABASE, and a password of "letmein" would look like this:
+```
+docker run -d -p 5432:5432 -e PG_DATABASE=mydatabase -e PG_PASSWORD=letmein --name springrest ghcr.io/thesteve0/postgres-appdev
+```
